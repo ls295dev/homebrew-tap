@@ -2,7 +2,6 @@ class Inksgame < Formula
     desc "design games in Inkscape"
     homepage "https://codeberg.org/Luca295/inksgame"
     head "https://codeberg.org/Luca295/inksgame/archive/master.zip"
-    
     depends_on "go" => :build
     depends_on "inksgame-helper"
 
