@@ -1,7 +1,7 @@
 class InksgameHelper < Formula
     desc "dependency for inksgame"
     homepage "https://codeberg.org/Luca295/inksgame-helper"
-    head "https://codeberg.org/Luca295/inksgame-helper/archive/master.zip"
+    head "https://codeberg.org/Luca295/inksgame-helper/archive/main.zip"
   
     depends_on "node" => [:build, :test]
 
