@@ -3,7 +3,7 @@ class Inksgame < Formula
     homepage "https://codeberg.org/Luca295/inksgame"
     head "https://codeberg.org/Luca295/inksgame/archive/master.zip"
     depends_on "go" => :build
-    depends_on "inksgame-helper"
+    depends_on "ls295dev/tap/inksgame-helper"
 
     def install
         system "go", "build", *std_go_args(ldflags: "-X main.version=HEAD")
